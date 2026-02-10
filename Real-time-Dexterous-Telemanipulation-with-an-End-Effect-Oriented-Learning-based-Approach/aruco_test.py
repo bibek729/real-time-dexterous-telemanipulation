@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
 
-# If you have real calibration, you can use it.
-# For now we use a simple pinhole model like your code.
+
 camera_matrix = np.array([[640, 0, 320],
                           [0, 640, 240],
                           [0,   0,   1]], dtype=np.float32)
@@ -47,3 +46,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
