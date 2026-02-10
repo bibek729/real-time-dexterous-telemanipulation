@@ -1,9 +1,5 @@
 import argparse
 
-"""
-Here are the param for the training
-
-"""
 
 def get_args():
     parser = argparse.ArgumentParser()
