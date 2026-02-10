@@ -10,9 +10,6 @@ import torch
 from globalobservation import GlobalObservation
 
 
-"""
-train the agent, the MPI part code is copy from openai baselines(https://github.com/openai/baselines/blob/master/baselines/her)
-"""
 
 def get_env_params(env):
     obs = env.reset()
